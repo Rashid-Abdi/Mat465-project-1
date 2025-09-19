@@ -6,5 +6,11 @@ format: html
 ```{r}
 print("hello world")
 
+k < -log(1/2)/3
+c0 < 4
+
+c < function(c0,k,t){
+  return (c0*e^(-k*t))
+}
 ```
 
